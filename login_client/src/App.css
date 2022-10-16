@@ -1,0 +1,60 @@
+.navbar{
+  display: flex;
+  height: 100px;
+  padding: 0px 50px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(233, 250, 233);
+  color: rgb(100, 70, 100);
+}
+
+.navAuthButtons .navAuthBtn{
+  font-size: 20px;
+  font-weight: 300;
+  border: none;
+  background-color: rgb(100, 70, 100);
+  padding: 10px;
+  color: white;
+  margin-right: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.homeContent{
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: aliceblue;
+  padding: 20px 10px;
+  height: 100vh;
+}
+
+.authInput {
+  padding: 10px;
+  width: 300px;
+}
+
+.authButton{
+  padding: 10px;
+  width: 330px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(100, 70, 100);
+  color: white;
+}
+
+.welcome{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
